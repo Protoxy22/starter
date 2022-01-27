@@ -9,9 +9,8 @@ version = "${version}"
 displayName = "${name}"
 authors = "Moonflower"
 credits = "An author, another author, and the last author."
-description = '''
-This is an example starter template.
-'''
+description = "This is an example starter template."
+displayURL = "https://www.moonflower.gg"
 #updateJSONURL = ""
 #logoFile = ""
 

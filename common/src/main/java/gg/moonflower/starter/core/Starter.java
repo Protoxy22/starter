@@ -9,6 +9,7 @@ public class Starter {
             .clientPostInit(Starter::onClientPostInit)
             .commonInit(Starter::onCommonInit)
             .commonPostInit(Starter::onCommonPostInit)
+            .dataInit(Starter::onDataInit)
             .build();
 
     public static void onClientInit() {
@@ -21,5 +22,8 @@ public class Starter {
     }
 
     public static void onCommonPostInit(Platform.ModSetupContext ctx) {
+    }
+
+    public static void onDataInit(Platform.DataSetupContext ctx) {
     }
 }
