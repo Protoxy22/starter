@@ -16,6 +16,9 @@
   "entrypoints": {
     "main": [
       "gg.moonflower.starter.core.fabric.StarterFabric"
+    ],
+    "fabric-datagen": [
+      "gg.moonflower.starter.core.fabric.StarterFabricDatagen"
     ]
   },
   "depends": {

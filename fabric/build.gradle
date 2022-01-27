@@ -19,6 +19,17 @@ loom {
     mixin {
         defaultRefmapName = "${project.mod_id}-refmap.json"
     }
+    runs {
+        datagen {
+            server()
+
+            name "Minecraft Data"
+            vmArg "-Dfabric-api.datagen"
+            vmArg "-Dfabric-api.datagen.output-dir=${generatedResources}"
+
+            runDir "build/datagen"
+        }
+    }
 //    accessWidenerPath.set(accessWidenerFile)
 }
 
